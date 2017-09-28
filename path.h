@@ -26,13 +26,10 @@ namespace path
 
 	void optimize_path(
 		Point &start_end_pt, 
-
 		const Paths &path, 
 		const vector<bool> &is_closed, 
-		
 		vector<int> &path_order, 
-		vector<int> &path_start
-		);
+		vector<int> &path_start);
 
 	void optimize_path(Point &start_end_pt, const Paths &path_in, Paths &path_out);
 }
